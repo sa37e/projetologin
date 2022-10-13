@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body{
+  background-image: linear-gradient(to top, #49a09d, blueviolet );
+}
 
  @media  screen and (min-width: 768px) and (min-width: 992px) { 
      section#login{
