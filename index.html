@@ -9,19 +9,30 @@
     <link rel="stylesheet" href="estilos/midia.css">
 </head>
 <body>
-    <main>
-        <section id="login">
-          <div id="imagem">
+<main>
+    <section id="login">
+    <div id="imagem">
 
-          </div>
-          <div id="formulario">
-           <h1>Login</h1>
-           <p>Seja bem-vindo(a) novamente faça o login para acessar a sua conta.</p>
-          <form action="login.php" method="post">
-
-          </form>
-          </div>
-        </section>
-    </main>
-</body>
-</html>
+    </div>
+    <div id="formulario">
+     <h1>Login</h1>
+     <p>Seja bem-vindo(a) novamente faça o login para acessar a sua conta.</p>
+    <form action="login.php" method="post" autocomplete="on">
+      <div class="campo">
+        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+        <label for="ilogin">Login</label>
+      </div>
+      <div class="campo">
+        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="9" maxlength="19"> 
+        <label for="isenha">Senha</label>
+      </div>
+      <input type="submit" value="entrar">
+      <a href="esqueci.html">
+        Esqueci a Senha
+      </a>
+    </form>
+  </div>
+  </section>
+  </main>
+ </body>
+ </html>
